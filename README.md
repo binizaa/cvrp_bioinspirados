@@ -1,6 +1,6 @@
-# CVRP con algoritmos bioinspirados (Entregable 3)
+# CVRP con algoritmos bioinspirados
 
-Equipo 2, MA2015 Gpo 202. Un programa en C++ (`cvrp`) resuelve el CVRP con cuatro métodos y corre los experimentos del reporte:
+Programa en C++ (`cvrp`) resuelve el CVRP con cuatro métodos:
 
 - **modelo**: MILP de dos índices con MTZ levantado, resuelto con HiGHS y con límite de tiempo.
 - **propuesto**: AG del Entregable 2, con 2-opt por ruta y descarte de duplicados.
@@ -62,18 +62,6 @@ Los niveles del ajuste, las instancias de ajuste y los valores por defecto está
 ./build/cvrp comparar --pm 0.05 --cruce 2 --seleccion torneo --alpha 1 --beta 5 --rho 0.1
 ./build/cvrp tablas
 ```
-
-## Resultados
-
-Cada corrida se agrega a su CSV en cuanto termina. Si un experimento se interrumpe, al lanzarlo de nuevo se saltan las corridas que ya están en el CSV.
-
-Columnas del CSV: `experimento, instancia, n, metodo, config, semilla, Z, bks, gap_bks, cota, estado, rutas, segundos, t_mejora, it_mejora, iteraciones, factible`.
-
-- `gap_bks` = 100 (Z − BKS) / BKS.
-- `t_mejora` e `it_mejora` son el segundo y la iteración de la última mejora; en el modelo, `iteraciones` es el número de nodos de ramificación.
-- `estado` del modelo: `optimo`, `factible`, `sin solucion` o `no escala`.
-
-Además se guardan el historial de convergencia (`results/historial/`) y la solución en formato `.sol` de CVRPLIB (`results/soluciones/`) de cada corrida.
 
 ## Instancias
 

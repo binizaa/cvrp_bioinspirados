@@ -1,0 +1,3 @@
+/Users/biniza.rz/Desktop/AlgoritmosGeneticos/Entregable3/build/CMakeFiles/cvrp.dir
+/Users/biniza.rz/Desktop/AlgoritmosGeneticos/Entregable3/build/CMakeFiles/edit_cache.dir
+/Users/biniza.rz/Desktop/AlgoritmosGeneticos/Entregable3/build/CMakeFiles/rebuild_cache.dir

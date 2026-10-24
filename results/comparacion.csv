@@ -1,0 +1,5 @@
+experimento,instancia,n,metodo,config,semilla,Z,bks,gap_bks,cota,estado,rutas,segundos,t_mejora,it_mejora,iteraciones,factible
+comparacion,CMT1,50,propuesto,cruce=2;pm=0.2;sel=torneo,3,562.0854,524.6100,7.1435,,ok,5,30.0000,1.0636,109554,3069864,1
+comparacion,CMT1,50,propuesto,cruce=2;pm=0.2;sel=torneo,1,543.6853,524.6100,3.6361,,ok,5,30.0000,14.7966,1487783,2993266,1
+comparacion,CMT1,50,ag,cruce=2;pm=0.05;sel=torneo,1,709.1197,524.6100,35.1708,,ok,5,30.0000,0.2709,58739,6662286,1
+comparacion,CMT1,50,propuesto,cruce=2;pm=0.2;sel=torneo,2,527.6748,524.6100,0.5842,,ok,5,30.0000,5.5010,575307,3021368,1

@@ -1,0 +1,40 @@
+\begin{table}[htbp]
+\centering
+\small
+\begin{tabular}{lrrrrrrr}
+\toprule
+Instancia & $n$ & BKS & $Z$ modelo & \multicolumn{4}{c}{GAP (\%)} \\
+\cmidrule(lr){5-8}
+ & & & & Modelo & Propuesto & AG & ACO \\
+\midrule
+CMT1 & 50 & 524.61 & 567.91 & 8.25 & 3.79 & 39.63 & \textbf{2.62} \\
+CMT2 & 75 & 835.26 & 967.99 & 15.89 & \textbf{4.65} & 27.64 & 9.25 \\
+CMT3 & 100 & 826.14 & 945.55 & 14.45 & \textbf{8.63} & 50.56 & 9.66 \\
+CMT4 & 150 & 1028.42 & n.e. & --- & 18.40 & 61.36 & \textbf{14.61} \\
+CMT5 & 199 & 1291.29 & n.e. & --- & 18.96 & 49.00 & \textbf{14.02} \\
+CMT6 & 50 & 555.43 & 567.91$^\dagger$ & 2.25 & 20.20 & 39.92 & \textbf{1.78} \\
+CMT7 & 75 & 909.68 & 967.99$^\dagger$ & 6.41 & 28.23 & 43.71 & \textbf{8.73} \\
+CMT8 & 100 & 865.94 & 945.55$^\dagger$ & 9.19 & 43.74 & 93.24 & \textbf{3.87} \\
+CMT9 & 150 & 1162.55 & n.e. & --- & 56.37 & 85.12 & \textbf{7.13} \\
+CMT10 & 199 & 1395.85 & n.e. & --- & 70.28 & 93.52 & \textbf{9.29} \\
+CMT11 & 120 & 1042.11 & n.e. & --- & 31.52 & 97.31 & \textbf{5.20} \\
+CMT12 & 100 & 819.56 & 879.75 & 7.34 & 32.41 & 78.17 & \textbf{8.25} \\
+CMT13 & 120 & 1541.14 & n.e. & --- & 41.07 & 78.12 & \textbf{1.82} \\
+CMT14 & 100 & 866.37 & 879.75$^\dagger$ & 1.54 & 39.89 & 84.28 & \textbf{3.12} \\
+X-n280-k17 & 279 & 33503.00 & n.e. & --- & 20.86 & 55.57 & \textbf{14.92} \\
+X-n303-k21 & 302 & 21736.00 & n.e. & --- & 22.73 & 74.11 & \textbf{22.36} \\
+X-n308-k13 & 307 & 25859.00 & n.e. & --- & 21.55 & 81.92 & \textbf{17.43} \\
+X-n327-k20 & 326 & 27532.00 & n.e. & --- & 18.07 & 57.13 & \textbf{10.02} \\
+X-n336-k84 & 335 & 139111.00 & n.e. & --- & \textbf{9.37} & 15.08 & 18.77 \\
+X-n401-k29 & 400 & 66154.00 & n.e. & --- & 15.59 & 31.70 & \textbf{5.63} \\
+X-n411-k19 & 410 & 19712.00 & n.e. & --- & 54.01 & 104.53 & \textbf{21.38} \\
+X-n429-k61 & 428 & 65449.00 & n.e. & --- & 10.92 & 29.31 & \textbf{8.38} \\
+X-n449-k29 & 448 & 55233.00 & n.e. & --- & 20.78 & 55.15 & \textbf{17.37} \\
+X-n459-k26 & 458 & 24139.00 & n.e. & --- & 28.11 & 91.15 & \textbf{12.16} \\
+\midrule
+Promedio & & & &  & 26.67 & 63.22 & 10.32 \\
+\bottomrule
+\end{tabular}
+\caption{GAP contra la BKS. Para los algoritmos estocásticos es el promedio de las corridas. $^*$: óptimo probado; $^\dagger$: la solución del modelo viola el límite de longitud de ruta; n.e.: el modelo no escala a ese tamaño.}
+\label{tab:comparacion_gap}
+\end{table}
